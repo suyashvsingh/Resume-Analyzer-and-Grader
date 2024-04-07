@@ -13,7 +13,7 @@ app.post('/pdf', async (req, res) => {
     return
   }
   const pdfParser = new PDFParser(this, 1)
-  const pdfFilePath = `${__dirname}/resumes/${fileName}.pdf`
+  const pdfFilePath = `${__dirname}/../resumes/${fileName}`
 
   pdfParser.on('pdfParser_dataError', (errData) => {
     console.error(errData.parserError)
