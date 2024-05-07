@@ -1,5 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./venv/Lib/site-packages/langchain_text_splitters"
-    ]
-}

@@ -10,11 +10,14 @@ This project utilizes a combination of NLP tools and large language models to an
 - **Multi-Model Integration**: Integrates different AI and NLP models to provide comprehensive analysis. 🔧
 
 ## Dependencies 📦
+
 This project relies on several external services and libraries:
+
 - **NLTK**: For text processing.
 - **Requests**: To make HTTP requests to the local server for text extraction.
 - **LangChain**: For using the LLaMA model for text classification.
 - **OpenAI**: To access the GPT models for generating grading and summaries.
 
 ## Contributing 👥
+
 Contributions to this project are welcome! Please fork the repository and submit a pull request with your proposed changes.
